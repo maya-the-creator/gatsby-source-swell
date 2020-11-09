@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "workspaces": [
+    "demo",
+    "gatsby-source-swell"
+  ],
+  "scripts": {
+    "build": "yarn workspace demo build",
+    "clean": "yarn workspace demo clean",
+    "dev": "yarn workspace demo dev"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-source-swell",
+  "description": "Source plugin for pulling product data into Gatsby from Swell.",
+  "version": "1.0.0",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "e-commerce",
+    "store",
+    "swell"
+  ],
+  "dependencies": {
+    "gatsby-source-filesystem": "2.4.1",
+    "swell-js": "^3.3.0"
+  },
+  "license": "MIT"
+}
