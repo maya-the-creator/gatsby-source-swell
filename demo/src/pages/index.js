@@ -10,7 +10,7 @@ const pageQuery = graphql`
         name
         description
         price
-        imagesLocal {
+        images_local {
           id
           childImageSharp {
             fixed(width: 500) {
@@ -30,13 +30,13 @@ const IndexPage = () => {
 
   return (
     <>
-      {nodes.map(({ id, name, description, price, imagesLocal }) => {
+      {nodes.map(({ id, name, description, images_local, price }) => {
         return (
           <div key={id}>
             <h1>{name}</h1>
             <div dangerouslySetInnerHTML={{ __html: description }} />
             <h2>{`$${price.toFixed(2)}`}</h2>
-            {imagesLocal.map(image => (
+            {images_local.map(image => (
               <Fragment key={image.id}>
                 <Img fixed={image.childImageSharp.fixed} />
               </Fragment>
