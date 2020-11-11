@@ -1,7 +1,7 @@
 {
   "name": "gatsby-source-swell",
   "description": "Source plugin for pulling product data into Gatsby from Swell.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "gatsby-source-filesystem": "2.4.1",
     "swell-node": "^3.1.5"
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/maya-the-creator/gatsby-source-swell.git"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\""
   },
   "keywords": [
     "gatsby",
