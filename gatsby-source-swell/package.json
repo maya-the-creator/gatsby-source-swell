@@ -1,7 +1,7 @@
 {
   "name": "gatsby-source-swell",
   "description": "Source plugin for pulling product data into Gatsby from Swell.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
     "gatsby-source-filesystem": "2.4.1",
     "swell-node": "^3.1.5"
