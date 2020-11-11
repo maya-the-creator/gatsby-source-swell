@@ -9,7 +9,17 @@
     "clean": "yarn workspace demo clean",
     "dev": "yarn workspace demo dev"
   },
-  "np": {
-    "contents": "gatsby-source-swell"
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "pkgRoot": "gatsby-source-swell"
+        }
+      ],
+      "@semantic-release/github"
+    ]
   }
 }
