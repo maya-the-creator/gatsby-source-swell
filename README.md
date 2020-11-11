@@ -47,3 +47,11 @@ plugins: [
   },
 ]
 ```
+
+## Run Demo Application
+
+After adding your store credentials to the plugin resolver defined in `gatsby-config.js`, run the following:
+
+```shell
+yarn && yarn dev
+```
