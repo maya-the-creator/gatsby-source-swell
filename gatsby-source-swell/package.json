@@ -6,19 +6,21 @@
     "gatsby-source-filesystem": "2.4.1",
     "swell-node": "^3.1.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maya-the-creator/gatsby-source-swell.git"
+  },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
     "e-commerce",
-    "store",
     "swell"
   ],
-  "homepage": "https://github.com/maya-the-creator/gatsby-source-swell",
   "author": "Maya E. <maya@abunchofcreators.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/maya-the-creator/gatsby-source-swell/issues",
     "email": "maya@abunchofcreators.com"
   },
-  "license": "MIT",
-  "private": false
+  "homepage": "https://github.com/maya-the-creator/gatsby-source-swell"
 }
