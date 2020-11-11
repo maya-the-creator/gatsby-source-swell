@@ -8,5 +8,8 @@
     "build": "yarn workspace demo build",
     "clean": "yarn workspace demo clean",
     "dev": "yarn workspace demo dev"
+  },
+  "np": {
+    "contents": "gatsby-source-swell"
   }
 }
