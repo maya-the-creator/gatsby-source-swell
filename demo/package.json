@@ -5,7 +5,8 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "dev": "gatsby develop"
+    "dev": "gatsby develop",
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "dotenv": "8.2.0",

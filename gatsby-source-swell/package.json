@@ -25,5 +25,8 @@
     "url": "https://github.com/maya-the-creator/gatsby-source-swell/issues",
     "email": "maya@abunchofcreators.com"
   },
-  "homepage": "https://github.com/maya-the-creator/gatsby-source-swell"
+  "homepage": "https://github.com/maya-the-creator/gatsby-source-swell",
+  "publishConfig": {
+    "access": "public"
+  }
 }
